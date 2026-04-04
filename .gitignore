@@ -366,9 +366,7 @@ FodyWeavers.xsd
 # CONFIGURAÇÕES PERSONALIZADAS DO PROJETO (SEGURANÇA)
 # ===========================================================
 
-# Bloqueia os arquivos que contêm a sua senha real do banco
 **/appsettings.json
 **/appsettings.Development.json
 
-# PERMITE que o arquivo de exemplo seja enviado (o "!" anula o bloqueio acima)
 !**/appsettings.example.json
