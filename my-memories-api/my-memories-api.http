@@ -1,0 +1,6 @@
+@my_memories_api_HostAddress = http://localhost:5054
+
+GET {{my_memories_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
